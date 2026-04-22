@@ -46,10 +46,9 @@ cifar10-image-classifier/
 ## 🚀 **How to Run Locally**
 
 1. **Clone the repository**:
-```bash
+```bash 
 git clone https://github.com/sammeee/cifar10-image-classifier.git
 cd cifar10-image-classifier
-```
 
 2. **Install dependencies**:
 ```bash
@@ -58,6 +57,7 @@ pip install -r requirements.txt
 3. **Run the Streamlit app**:
 ```bash
 streamlit run src/streamlit_app.py
+
 
 ## 📊 **Results & Observations**
 
