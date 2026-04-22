@@ -53,19 +53,19 @@ git clone https://github.com/sammeee/cifar10-image-classifier.git
 cd cifar10-image-classifier
 ```
 
-2. **Install dependencies**
+`2. **Install dependencies**`
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Run the Streamlit app**
+`3. **Run the Streamlit app**`
 ```bash 
 streamlit run src/streamlit_app.py
 ```
 
 ---
 
-## 📊 Results & Observations
+`## 📊 Results & Observations`
 
 *   **Test Accuracy**: ~92-94% (High performance for a lightweight ResNet-18 on 32×32 images).
 *   **Strengths**: Performs well on clear, centered images.
