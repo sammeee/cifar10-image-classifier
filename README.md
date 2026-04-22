@@ -49,6 +49,7 @@ cifar10-image-classifier/
 ```bash
 git clone https://github.com/sammeee/cifar10-image-classifier.git
 cd cifar10-image-classifier
+```
 
 2. **Install dependencies**:
 ```bash
