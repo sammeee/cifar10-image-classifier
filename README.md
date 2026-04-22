@@ -41,39 +41,51 @@ cifar10-image-classifier/
 ├── README.md
 └── .gitignore
 
-**Note**: The trained model file (tuned_resnet_cifar10.pth ≈ 44.8 MB) is not included in this repository due to GitHub's file size limit. The full model is loaded and running in the live Hugging Face Space.
+**Note**: The trained model file (`tuned_resnet_cifar10.pth` ≈ 44.8 MB) is not included in this repository due to GitHub's file size limit. The full model is loaded and running in the live [Hugging Face Space](your-link-here).
 
-## 🚀 **How to Run Locally**
+---
 
-1. **Clone the repository**:
-```bash 
-git clone https://github.com/sammeee/cifar10-image-classifier.git
-cd cifar10-image-classifier
-```
+## 🚀 How to Run Locally
 
-`2. **Install dependencies**:`
-```bash
-pip install -r requirements.txt
+1. **Clone the repository**
+   ```bash 
+   git clone https://github.com/sammeee/cifar10-image-classifier.git
+   cd cifar10-image-classifier
+   ```
 
-`3. **Run the Streamlit app**:`
-```bash 
-`streamlit run src/streamlit_app.py`
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-## 📊 **Results & Observations**
+3. **Run the Streamlit app**
+   ```bash 
+   streamlit run src/streamlit_app.py
+   ```
 
-**Test accuracy**: ~92-94% (very good for a lightweight ResNet-18 on 32×32 images)
-The model performs well on clear, centered images
-Common confusions occur between visually similar classes (e.g., dog ↔ deer, cat ↔ dog). This is expected due to the low resolution of the CIFAR-10 dataset.
+---
 
-## 🔮 **Future Improvements**
+## 📊 Results & Observations
 
-Add data augmentation during training
-Experiment with larger backbones (ResNet-34, EfficientNet-B0, etc.)
-Add Grad-CAM visualization for model explainability
-Deploy with a FastAPI backend + Streamlit frontend (for better scalability)
+*   **Test Accuracy**: ~92-94% (High performance for a lightweight ResNet-18 on 32×32 images).
+*   **Strengths**: Performs well on clear, centered images.
+*   **Limitations**: Common confusions occur between visually similar classes (e.g., dog ↔ deer, cat ↔ dog). This is expected due to the low resolution (32x32) of the CIFAR-10 dataset.
 
-## 📄 **License**
-Apache 2.0 License
+---
 
-Built as part of my self-taught Deep Learning journey using PyTorch and Streamlit.
-Feel free to explore the live demo and provide feedback!
+## 🔮 Future Improvements
+
+- [ ] Add data augmentation during training.
+- [ ] Experiment with larger backbones (ResNet-34, EfficientNet-B0, etc.).
+- [ ] Add Grad-CAM visualization for model explainability.
+- [ ] Deploy with a FastAPI backend + Streamlit frontend for better scalability.
+
+---
+
+## 📄 License
+
+Distributed under the **Apache 2.0 License**.
+
+---
+
+*Built as part of my self-taught Deep Learning journey using PyTorch and Streamlit. Feel free to explore the live demo and provide feedback!*
