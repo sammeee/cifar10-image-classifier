@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# PyTorch & ML specific
+*.pth
+*.pt
+*.onnx
+*.h5
+*.pb
+lightning_logs/
+wandb/
+tensorboard_logs/
+checkpoints/
+model_weights/
+
+# Large files
+*.bin
+*.model
